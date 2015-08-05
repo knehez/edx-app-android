@@ -154,11 +154,11 @@ public class CourseUnitNavigationActivity extends CourseBaseActivity implements 
 
         environment.getDatabase().updateAccess(null, selectedUnit.getId(), true);
 
-        CourseComponent parent = component.getParent();
+        CourseComponent parentSectionComponent = component.getParent().getParent();
         String prefName = PrefManager.getPrefNameForLastAccessedBy(getProfile()
             .username, selectedUnit.getCourseId());
         final PrefManager prefManager = new PrefManager(MainApplication.instance(), prefName);
-        prefManager.putLastAccessedSubsection(parent.getId(), false);
+        prefManager.putLastAccessedSubsection(parentSectionComponent.getId(), false);
         Intent resultData = new Intent();
         resultData.putExtra(Router.EXTRA_COURSE_UNIT, selectedUnit);
         setResult(RESULT_OK, resultData);
