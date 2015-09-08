@@ -107,13 +107,20 @@ public class CourseChapterListFragment extends CourseDetailBaseFragment
         if (!enrollment.getCourse().isStarted()) {
             CoursewareAccess error = enrollment.getCourse().getCoursewareAccess();
             StartType type = enrollment.getCourse().getStartType();
-            if (error.getError_code() == AccessError.START_DATE_ERROR && !(type == StartType.NONE_START)) {
-                startDate = "<font color='" + getString(R.color.grey_text_course_not_started) + "'>" + enrollment.getCourse().getStartDisplay() + "</font>";
-                String courseScheduledText  =  ResourceUtil.getFormattedString(R.string.course_content_available_text,
-                        "start_time", startDate).toString();
 
+            if (error == null){
+                String courseScheduledText  =  (String)getActivity().getText(R.string.course_not_available_mobile);
                 courseScheduleTv = (ETextView) view.findViewById(R.id.course_content_available_tv);
                 courseScheduleTv.setText(Html.fromHtml(courseScheduledText));
+            }else {
+                if (error.getError_code() == AccessError.START_DATE_ERROR && !(type == StartType.NONE_START)) {
+                    startDate = "<font color='" + getString(R.color.grey_text_course_not_started) + "'>" + enrollment.getCourse().getStartDisplay() + "</font>";
+                    String courseScheduledText = ResourceUtil.getFormattedString(R.string.course_content_available_text,
+                            "start_time", startDate).toString();
+
+                    courseScheduleTv = (ETextView) view.findViewById(R.id.course_content_available_tv);
+                    courseScheduleTv.setText(Html.fromHtml(courseScheduledText));
+                }
             }
         }
 

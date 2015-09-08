@@ -521,6 +521,8 @@
     <!--  Email subject line when user attempts to submit feedback about the app -->
     <string name="email_subject">Customer Feedback</string>
 
+    <string name="course_not_available_mobile">This course isn\'t available on mobile!</string>
+
     <!-- Message indicating num of video deleted-->
     <plurals
         name="deleted_video">

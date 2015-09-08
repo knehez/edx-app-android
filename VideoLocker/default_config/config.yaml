@@ -1,4 +1,4 @@
-API_HOST_URL: 'http://10.0.2.2:8000' # localhost is 10.0.2.2 in Android
+API_HOST_URL: 'http://memooc.hu'
 ENVIRONMENT_DISPLAY_NAME: 'Localhost'
 FEEDBACK_EMAIL_ADDRESS: 'support@example.com'
 SOCIAL_FEATURES_ENABLED: false
