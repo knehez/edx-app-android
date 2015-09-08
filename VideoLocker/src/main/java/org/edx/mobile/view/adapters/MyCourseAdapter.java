@@ -17,6 +17,7 @@ import org.edx.mobile.R;
 import org.edx.mobile.core.IEdxEnvironment;
 import org.edx.mobile.model.api.AccessError;
 import org.edx.mobile.model.api.CourseEntry;
+import org.edx.mobile.model.api.CoursewareAccess;
 import org.edx.mobile.model.api.EnrolledCoursesResponse;
 import org.edx.mobile.model.api.StartType;
 import org.edx.mobile.social.SocialMember;
@@ -107,7 +108,14 @@ BaseListAdapter<EnrolledCoursesResponse> {
                 String startDt; 
                 Date endDate = DateUtil.convertToDate(courseData.getEnd());
                 String endDt;
-                AccessError error = enrollment.getCourse().getCoursewareAccess().getError_code();
+
+                CoursewareAccess courseware_access = enrollment.getCourse().getCoursewareAccess();
+                AccessError error = null;
+                if (courseware_access != null){
+                    error = courseware_access.getError_code();
+                }
+
+                if (error != null)
                 if (error == AccessError.START_DATE_ERROR) {
                     StartType type = enrollment.getCourse().getStartType();
                     if(type.equals(StartType.TIMESTAMP_START)){
