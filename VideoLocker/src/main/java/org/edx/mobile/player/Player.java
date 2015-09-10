@@ -1,6 +1,5 @@
 package org.edx.mobile.player;
 
-import android.content.Context;
 import android.graphics.Point;
 import android.graphics.SurfaceTexture;
 import android.media.AudioManager;
@@ -10,16 +9,20 @@ import android.media.MediaPlayer.OnCompletionListener;
 import android.media.MediaPlayer.OnErrorListener;
 import android.media.MediaPlayer.OnInfoListener;
 import android.media.MediaPlayer.OnPreparedListener;
-import android.os.PowerManager;
+import android.net.Uri;
+import android.util.Base64;
 import android.view.Surface;
 import android.view.TextureView;
 import android.view.View.OnClickListener;
 
+import org.edx.mobile.base.MainApplication;
 import org.edx.mobile.logger.Logger;
 import org.edx.mobile.view.OnSwipeListener;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.util.HashMap;
+import java.util.Map;
 
 @SuppressWarnings("serial")
 public class Player extends MediaPlayer implements OnErrorListener,
@@ -278,8 +281,23 @@ OnCompletionListener, OnInfoListener, IPlayer {
 
             if(videoUri!=null){
                 if (videoUri.startsWith("http")) {
+
+                    // Authdata
+                    String username = "memooc";
+                    String password = "memooc";
+
+                    // encrypt Authdata
+                    byte[] toEncrypt = (username + ":" + password).getBytes();
+                    String encoded = Base64.encodeToString(toEncrypt, Base64.DEFAULT);
+
+                    // create header
+                    Map<String, String> headers = new HashMap<>();
+                    headers.put("Authorization","Basic "+encoded);
+
+                    Uri uri = Uri.parse(videoUri);
+
                     // this is web URL
-                    setDataSource(videoUri);
+                    setDataSource(MainApplication.application.getApplicationContext(), uri, headers);
 
                     state = PlayerState.URI_SET;
                     isPlayingLocally = false;

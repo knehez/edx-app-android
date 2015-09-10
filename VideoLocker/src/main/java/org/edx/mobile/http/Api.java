@@ -277,7 +277,7 @@ public class Api implements IApi {
         Bundle p = new Bundle();
         p.putString("format", "json");
         String url = getBaseUrl() + "/api/mobile/v0.5/video_outlines/courses/" + courseId;
-        logger.debug("Get course heirarchy url - "+url);
+        logger.debug("Get course heirarchy url - " + url);
         String json = null;
         if (NetworkUtil.isConnected(context) && !preferCache) {
             // get data from server

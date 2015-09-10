@@ -59,6 +59,10 @@ public class CourseEntry implements Serializable {
         return config.getApiHostURL() + course_image;
     }
 
+    public String getCourse_imageSimple() {
+        return course_image;
+    }
+
     public void setCourse_image(String course_image) {
         this.course_image = course_image;
     }

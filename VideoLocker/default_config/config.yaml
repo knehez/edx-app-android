@@ -1,4 +1,4 @@
-API_HOST_URL: 'http://memooc.hu'
+API_HOST_URL: 'http://memooc:memooc@memooc.hu'
 ENVIRONMENT_DISPLAY_NAME: 'Localhost'
 FEEDBACK_EMAIL_ADDRESS: 'support@example.com'
 SOCIAL_FEATURES_ENABLED: false
