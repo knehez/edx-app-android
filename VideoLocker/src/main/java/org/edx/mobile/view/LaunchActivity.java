@@ -45,24 +45,11 @@ public class LaunchActivity extends BaseFragmentActivity {
         //The onTick method need not be run in the LaunchActivity
         runOnTick = false;
 
-        ETextView sign_in_tv = (ETextView) findViewById(R.id.sign_in_tv);
+        EButton sign_in_tv = (EButton) findViewById(R.id.sign_in_tv);
         sign_in_tv.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 environment.getRouter().showLogin(LaunchActivity.this);
-            }
-        });
-
-        EButton sign_up_button = (EButton) findViewById(R.id.sign_up_btn);
-        sign_up_button.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                try {
-                    environment.getSegment().trackUserSignUpForAccount();
-                }catch(Exception e){
-                    logger.error(e);
-                }
-                environment.getRouter().showRegistration(LaunchActivity.this);
             }
         });
 
