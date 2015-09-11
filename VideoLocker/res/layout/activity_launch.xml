@@ -24,10 +24,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="30dp">
+        android:layout_marginBottom="80dp">
 
         <org.edx.mobile.view.custom.EButton
-            android:id="@+id/sign_up_btn"
+            android:id="@+id/sign_in_tv"
             style="@style/bold_white_text"
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -38,23 +38,22 @@
             android:textSize="16sp"
             android:padding="5dp"
             android:layout_alignParentTop="true"
-            android:text="@string/sign_up_and_learn"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
+            android:text="@string/already_have_an_account"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
             android:layout_marginTop="25dp"/>
 
-        <org.edx.mobile.view.custom.ETextView
-            android:id="@+id/sign_in_tv"
-            style="@style/bold_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:linksClickable="true"
-            android:text="@string/already_have_an_account"
-            android:textColor="@android:color/white"
-            android:textSize="15sp"
-            android:layout_below="@id/sign_up_btn"
-            android:layout_marginTop="25dp"/>
     </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="A közösségi tanulás élménye"
+        android:id="@+id/textView"
+        android:layout_below="@+id/edx_logo"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
 
 </RelativeLayout>

@@ -470,7 +470,7 @@
 
     <!-- Landing Activity text -->
     <!-- Prompt leading user to sign in screen -->
-    <string name="already_have_an_account">Már van fiókod? Lépj be</string>
+    <string name="already_have_an_account">Bejelentkezés</string>
     <!-- Prompt leading user to create account screen -->
     <string name="sign_up_and_learn">Regisztrálj</string>
     <!-- In Sign up screen -->
