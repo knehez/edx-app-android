@@ -103,7 +103,8 @@
                 android:paddingTop="10dp"
                 android:text="@string/label_find_courses"
                 android:textAllCaps="true"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:visibility="gone" />
 
             <include layout="@layout/divider_drawer_options" />
         </LinearLayout>
@@ -155,7 +156,8 @@
             android:paddingTop="10dp"
             android:text="@string/label_submit_feedback"
             android:textAllCaps="true"
-            android:textSize="14sp" />
+            android:textSize="14sp"
+            android:visibility="gone" />
 
         <include layout="@layout/divider_drawer_options" />
 

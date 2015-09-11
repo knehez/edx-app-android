@@ -8,12 +8,16 @@
 
     <ImageView
         android:id="@+id/edx_logo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edx_logo_height"
+        android:layout_marginBottom="@dimen/logo_margin_bottom"
+        android:layout_marginLeft="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginTop="@dimen/logo_margin_top"
+        android:layout_centerInParent="true"
         android:contentDescription="@string/app_name"
-        android:src="@drawable/edx_logo"/>
+        android:src="@drawable/memooc_logo3"
+        android:layout_alignParentTop="true" />
 
     <RelativeLayout
         android:id="@+id/bottom_layout"

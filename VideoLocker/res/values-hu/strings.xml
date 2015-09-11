@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">edX</string>
+
+    <!-- Common values -->
+    <!-- Button to visit course group on facebook -->
+    <string name="course_details_fb_group">A kurzus hivatalos Facebook csoportja</string>
+    <!-- Button to view handouts for course -->
+    <string name="view_handouts">Kurzus segédleteinek megtekintése</string>
+    <!-- Label for list of friends enrolled in a course -->
+    <string name="course_details_friends_in_course">Barátaid ebben a kurzusban</string>
+    <!-- Button for sharing a link to the course -->
+    <string name="course_details_share">Meosztás</string>
+    <!-- Label congratulation user on finishing course -->
+    <string name="course_details_congratulations">Gratulálok!</string>
+    <!-- Message for user who has successfully completed a certificate course -->
+    <string name="course_details_earned_cert">Megszerezted a bizonyítványt</string>
+    <!-- Header for list of friends in a given course. Argument is a course name -->
+    <string name="friends_in_course">Barátaid a(z){courseName} kurzusban</string>
+    <!-- Link to web course page -->
+    <string name="open_course_page">Kurzus oldalak megnyitása</string>
+    <!-- Title of friends in course screen -->
+    <string name="friends_in_this_course">Barátaid ebben a kurzusban</string>
+
+    <string name="share_application_title">MeMOOC for Android</string>
+    <string name="share_application_link_url">http://www.memooc.hu</string>
+    <string name="share_application_picture_url">https://www.edx.org/sites/default/files/theme/edx-logo-header.png</string>
+    <string name="share_application_description">MeMOOC online kurzusok</string>
+
+    <!-- Settings Page -->
+
+    <!-- Label for wifi only switch -->
+    <string name="settings_wifi_top">Letöltés csak Wi-Fi használatával</string>
+    <!-- Label explaining what wifi only means in detail -->
+    <string name="settings_wifi_bottom">Csak akkor tölti le a tartalmat, ha a Wi-Fi be van kapcsolva</string>
+    <!-- Label explaining switch allowing other users to see courses -->
+    <string name="settings_make_courses_visible_top">Mutassa meg a kurzust a barátaimnak</string>
+    <!-- Label explaining switch allowing other users to see courses -->
+    <string name="settings_make_courses_visible_bottom">Mutassa meg a felvett kurzust a barátaimnak</string>
+    <!-- Label for facebook login section -->
+    <string name="settings_facebook_login">Facebook login</string>
+    <!-- Label for facebook login section. Argument is a user name -->
+    <string name="settings_facebook_login_body_logged_in">Bejelentkezve, mint {username}</string>
+    <!-- Label for button allowing user to connect a facebook account -->
+    <string name="settings_facebook_login_body_logged_out">Belépes Facebook fiókkal</string>
+    <!-- Error shown attempting to connect a facebook accoutn fails -->
+    <string name="settings_facebook_login_error">Facebook csatlakozási hiba</string>
+    <!-- Status label shown when connecting to facebook -->
+    <string name="settings_facebook_login_fetch">Csatlakozás a Facebookhoz...</string>
+    <!-- Button for connecting a user to their facebook account -->
+    <string name="settings_facebook_login_btn">Belépés</string>
+    <!-- Button for disconnecting a user from their facebook account -->
+    <string name="settings_facebook_logout_btn">Kijelentkezés</string>
+
+    <!-- Certificate Page -->
+
+    <!-- Button sharing a certificate for finishing a course -->
+    <string name="share_certificate_super">Bizonyítvány megosztása</string>
+    <!-- Label providing details for share certificate action -->
+    <string name="share_certificate_sub">Oszd meg barátaiddal az eredményeidet</string>
+    <!-- Tab of tab for certicate for finished course -->
+    <string name="tab_label_certificate">Bizonyítvány</string>
+
+    <!-- Groups Page -->
+
+    <!-- Label on cell in list of groups. Argument is number of members -->
+    <string name="group_list_members">Tagok {members}</string>
+
+    <!-- Data Usage Dialog -->
+    <!-- Alert dialog error message shown when using a feature with a required internet connection -->
+    <string name="need_data">Ehhez a funkcióhoz internet kapcsolat szükséges.</string>
+    <!-- Alert dialog okay button -->
+    <string name="play_data_dialog_OK">OK</string>
+    <!-- Alert dialog cancel button -->
+    <string name="play_data_dialog_Cancel">Töröl</string>
+
+    <!-- Login Activity Place Holders -->
+    <!-- Hint text for login field -->
+    <string name="email_username">Felhasználói név vagy e-mail cím</string>
+    <!-- Hint text for email address field in reset password dialog -->
+    <string name="email">E-mail cím</string>
+    <!-- Hint text for password field -->
+    <string name="password">Jelszó</string>
+    <!-- Button text allowing user to reset their password -->
+    <string name="forgot_password">Elfelejtetted a jelszavad?</string>
+    <!-- Button initiating login process after user enters credentials like username and password -->
+    <string name="login">Bejelentkezés</string>
+    <!-- Message shown while waiting for action -->
+    <string name="progressText">Várakozás....</string>
+    <!-- Message shown while user waits for response to a sign in request-->
+    <string name="signing_in">Bejelentkezés...</string>
+    <!-- Message for shown after tapping Sign In -->
+    <string name="error_message">Hibaüzenet</string>
+    <!-- Generic error during log in -->
+    <string name="error_heading">Hiba történt bejelentkezés közben</string>
+    <!-- Error during log in. -->
+    <string name="login_failed">Ellenőrizd a felhasználói neved vagy e-mail címedet és a jelszavadat, majd próbáld újra.</string>
+    <!-- Error logging in without activating account. -->
+    <string name="login_failed_no_grant">A felhasználói fiókodat még nem aktiváltad. Ellenőrizd az elküldütt e-mailt, és kövesd az utasításokat.</string>
+    <!-- Button text allowing a user to go to the register screen -->
+    <string name="new_user">Nincs felhasználói fiókod?</string>
+    <string name="by_signing_up">A belépéssel elfogadod a </string>
+    <string name="licensing_agreement">MeMOOC felhasználási feltételeit és szabályzatát</string>
+    <string name="login_title">Belépés a MeMOOC rendszerbe</string>
+
+    <!-- Navigation Drawer Labels -->
+    <!-- Button text to show user Settings screen -->
+    <string name="action_settings">Beállítások</string>
+    <!-- Title of user's course list screen -->
+    <string name="label_my_courses">Kurzusaim</string>
+    <!-- Title of user's downloaded videos list screen -->
+    <string name="label_my_videos">Videóim</string>
+    <!-- Title of Find Courses screen -->
+    <string name="label_find_courses">Kurzusok keresése</string>
+    <!-- Title of Study Groups screen -->
+    <string name="label_my_groups">Tanulócsoport</string>
+    <!-- Button allowing users to send an email for feedback -->
+    <string name="label_submit_feedback">Visszajelzés küldése</string>
+    <!-- Toggle switch on state label -->
+    <string name="toggle_turn_on">Be</string>
+    <!-- Toggle switch off state label -->
+    <string name="toggle_turn_off">Ki</string>
+    <!-- Logout button label -->
+    <string name="logout">Kilépés</string>
+    <!-- Settings screen title -->
+    <string name="settings_txt">Beállítás</string>
+    <!-- Settings screen title -->
+    <string name="label_version">Verzió</string>
+    <!-- Button text to show user Settings screen -->
+    <string name="label_settings">Beállításaim</string>
+
+    <!-- Help Dialog Place Holder messages -->
+    <!-- Reset password alert dialog title -->
+    <string name="confirm_dialog_title_help">Jelszó helyreállítás</string>
+    <!-- Reset password alert dialog message -->
+    <string name="success_dialog_title_help">A jelszó helyreállításáról e-mailt kapsz</string>
+    <!-- Reset password alert dialog title -->
+    <string name="title_reset_password_failed">Jelszó helyreállítás hiba</string>
+    <!-- Label for switch controlling whether users permit downloading using cellular data or only wifi -->
+    <string name="wifi_dialog_title_help">Letöltés telefonos adatforgalommal</string>
+    <!-- Password reset sent succesfully alert -->
+    <string name="success_dialog_message_help">A jelszó helyreállításának lépéseiről e-mailt küldtünk. 
+        Ha nem látod a beérkező leveleid kötött pár perc múlva, nézd meg a levélszemét mappában is.</string>
+    <!-- Password reset dialog prompt -->
+    <string name="confirm_dialog_message_help">Add meg az fiókod e-mail címét és a jelszó helyreállításáról e-mailt küldtünk.</string>
+    <!-- Label explaining toggle for cellular data access -->
+    <string name="wifi_dialog_message_help">Videók letöltése telefonos adatkapcsolattal, ha nincs Wi-Fi kaolcsolat. Figyelem, ez költségekkel járhat!.</string>
+    <!-- Confirmation text for delete video dialog -->
+    <string name="delete_dialog_title_help">Törlés megerősítése</string>
+    <plurals name="delete_video_dialog_msg">
+        <item quantity="one">Biztos, hogy törlöd a videót?</item>
+        <item quantity="other">Biztos, hogy törlöd a videókat?</item>
+    </plurals>
+    <!-- Alert dialog button label -->
+    <string name="delete_successful_dialog_title_help">Törlés</string>
+    <!-- Alert dialog title for users with zero rated data -->
+    <string name="leaving_app_data_title">MeMOOC app elhagyása</string>
+    <!-- Alert dialog content for users with zero rated data -->
+    <string name="leaving_app_data_message">Ha elhagyod a MeMOOC alkalmazást, akkor az ingyenes tartalmakat nem látod. Figyelem, ez költségekkel járhat!</string>
+
+    <!-- Reset Dialog Fragment Place Holder messages -->
+    <string name="reset_dialog_title">Alaphelyzet</string>
+    <!-- Title of agreement users must accept to use the app -->
+    <string name="end_user_title">Végfelhasználói szerződés</string>
+
+    <!-- My Courses -->
+    <!-- Title of course dashboard screen -->
+    <string name="course_home">Kurzusok</string>
+    <!-- Row of course on dashboard screen -->
+    <string name="courseware_title">Tananyag</string>
+    <!-- Row of course on dashboard screen -->
+    <!-- NOTE: TODO - not final one -->
+    <string name="courseware_subtitle">Videók és feladatok</string>
+    <!-- Row of Discussion on dashboard screen -->
+    <string name="discussion_title">Fórum</string>
+    <!-- Row of Discussion on dashboard screen -->
+    <!-- NOTE: TODO - not final one -->
+    <string name="discussion_subtitle">Csatlakozz a Fórumhoz</string>
+    <!-- Row of Handouts on dashboard screen -->
+    <string name="handouts_title">Jegyzetek</string>
+    <!-- Row of Handouts on dashboard screen -->
+    <!-- NOTE: TODO - not final one -->
+    <string name="handouts_subtitle">Fontos kurzus információk</string>
+    <!-- Row of announcement on dashboard screen -->
+    <string name="announcement_title">Hirdetmények</string>
+    <!-- Row of announcement on dashboard screen -->
+    <!-- NOTE: TODO - not final one -->
+    <string name="announcement_subtitle">Friss hírek</string>
+
+
+    <!-- Title of course outline screen -->
+    <string name="course_outline">Kurzus vázlat</string>
+
+    <!-- Accessible content description of image for a course -->
+    <string name="course_image">Kurzus kép</string>
+    <!-- Accessible content description of school code label a course -->
+    <string name="school_code">Szervezet kód</string>
+    <!-- Accessible content description of course code label for a course -->
+    <string name="course_code">Kurzus kód</string>
+    <!-- Accessible content description of course name label field -->
+    <string name="course_name">Kurzus név</string>
+    <!-- Label indicating new course content has been downloaded -->
+    <string name="new_course_content">Új tananyag</string>
+    <!-- Label for date when course starts -->
+    <string name="label_starting_from">Kezdés</string>
+    <!-- Label for course that has ended -->
+    <string name="label_ended">Befejezve</string>
+    <!-- Label for date when course is ending -->
+    <string name="label_ending_on">Befejezés</string>
+    <!-- List for table listing courses friends are in -->
+    <string name="label_my_friends_courses">Barátaim kurzusai</string>
+    <!-- Label on course indicating that user earned a certificate in that course -->
+    <string name="course_banner_certified">Megszerzett bizonyítvány</string>
+    <!-- Header ror list of users' friends enrolled in a course -->
+    <string name="course_friends_also_enrolled">Barátaim ezen a kurzuson</string>
+
+    <!-- Title for the course filter menu popup -->
+    <string name="course_view_modes">Kurzus nézet</string>
+    <!-- Label for the course filter menu popup option for filtering by videos only -->
+    <string name="course_view_mode_videos_only">Csak videók</string>
+    <!-- Label for the course filter menu popup option for displaying the full course -->
+    <string name="course_view_mode_full_course">Teljes kurzus</string>
+
+    <!-- Label for the menu popup for viewing the course on the web -->
+    <string name="course_view_on_web">Nézd a weben</string>
+
+    <!-- Course Details -->
+    <!-- Accessible content description of label for course content -->
+    <string name="course_content">Kurzus tartalma</string>
+    <!-- Accessible content description of label for course name -->
+    <string name="chapter_name">Kurzus név</string>
+    <!-- Tab title for courseware section -->
+    <string name="tab_label_courseware">Tananyag</string>
+    <!-- Tab title for course announcements section -->
+    <string name="tab_label_announcement">Hirdetések</string>
+    <!-- Tab title for course handouts section -->
+    <string name="tab_label_handouts">Jegyzetek</string>
+    <!-- Tab title for course info section -->
+    <string name="tab_label_course_info">Kurzus infó</string>
+    <!-- Button for last accessed course section. Will be followed by course name -->
+    <string name="last_accessed">Utolsó megtekintés</string>
+    <!-- Label shown when no courseware content is available -->
+    <string name="no_chapter_text">Jelenleg nincs elérhető tananyag</string>
+    <!-- Label shown when user is enrolled in no courses -->
+    <string name="no_courses_to_display">Nem regisztráltál kurzusra</string>
+    <!-- Label shown when no announcements are available for a course -->
+    <string name="no_announcements_to_display">Jelenleg nincs hirdetmény.</string>
+    <!-- Label shown when no handouts are available for a course -->
+    <string name="no_handouts_to_display">Jelenleg nincsenek jegyzetek</string>
+    <!-- Label shown when there is no course information available for a course -->
+    <string name="no_information_to_display">jelenleg nincs további információ.</string>
+
+    <!-- Assessment -->
+    <!-- Label showing next sub-section on assessment navigation bar-->
+    <string name="assessment_next_unit">Következő lecke</string>
+    <!-- Label showing next unit in a sub-section on assessment navigation bar-->
+    <string name="assessment_next">Következő</string>
+    <!-- Label showing previous sub-section on assessment navigation bar-->
+    <string name="assessment_previous_unit">Előző lecke</string>
+    <!-- Label showing previous unit in a sub-section on assessment navigation bar-->
+    <string name="assessment_previous">Előző</string>
+
+    <!-- Label for mode switch menu item-->
+    <string name="assessment_video_only">Csak videó</string>
+    <!-- Label for mode switch menu item-->
+    <string name="assessment_full_course">Teljes kurzus</string>
+
+    <!-- Label for empty video in video only mode-->
+    <string name="assessment_empty_video_info">Ebben a fejezetben nincs videó. Válaszd fent a Video ikont és válts teljes kurzus nézetre.</string>
+   <!-- Label showing assessment only available on website-->
+    <string name="assessment_not_available">Ez egy interaktív komponens. Sajnos, mobil eszközre nem elérhető.</string>
+    <!-- Label showing assessment only available on website-->
+    <string name="assessment_explore_on_web">Megnézheted a kurzus egyéb részeit vagy tekintsd meg a weben.</string>
+    <!-- Button to show wiew on web for assessment-->
+    <string name="assessment_view_on_web">Megtekintés a weben</string>
+    <!-- Label for homework for assessment-->
+    <string name="assessment_homework">Házi feladat</string>
+    <!-- Label to show empty assessment -->
+    <string name="assessment_empty">Ebben a fejezetben nincs tananyag</string>
+    <!-- Label to show empty assessment -->
+    <string name="assessment_empty_coming_soon">Hamarosan.</string>
+
+    <!-- Label to show empty transcript -->
+    <string name="assessment_empty_transcript">A videó felirat nem elérhető.</string>
+
+
+    <!-- Label for warning message of graded assessment -->
+    <string name="assessment_graded_warning">Azt javasoljuk, az osztályozott komponenseket használd a <i>weben</i>, amíg a mobil eszközön nem elérhető.</string>
+
+    <!-- Video List -->
+    <!-- Label shown to indicate video currently downloading -->
+    <string name="started_downloading">Letöltés</string>
+    <!-- Title of video download screen -->
+    <string name="title_download">Letöltve</string>
+
+    <!-- MyVideos -->
+    <!-- Title of all videos section -->
+    <string name="my_all_videos">Minden videoó</string>
+    <!-- Title of recent videos section -->
+    <string name="my_recent_videos">Videó előzmények</string>
+    <!-- Label indicating user has no internet connection -->
+    <string name="offline_text">Offline mód</string>
+    <!-- Label shown in videos section when user has no videos downloaded -->
+    <string name="no_videos_to_display">Nem töltöttél le videót</string>
+
+    <!-- My Downloads -->
+    <!-- Message indicating videos downloaded -->
+    <plurals name="text_download_msg">
+        <item quantity="one">Letöltött videó</item>
+        <item quantity="other">Letöltött videók</item>
+    </plurals>
+    <!-- Button action label to view an item -->
+    <string name="view_button_text">Megtekint</string>
+    <!-- Error text when downloading an item fails -->
+    <string name="download_failed_text">Hibás letöltés</string>
+    <!-- Message indicating a number of videos has begun. Argument is a number -->
+    <plurals name="downloading_count_videos">
+        <item quantity="zero">Hibás letöltés</item>
+        <item quantity="one">{quantity} videó letöltése</item>
+        <item quantity="other">{quantity} videó letöltése</item>
+    </plurals>
+    <!-- Alert dialog title to confirm download of a large quantity of data -->
+    <string name="download_exceed_title">Nagyméretű letöltés</string>
+
+    <!-- Alert dialog text at end of video -->
+    <string name="title_lecture_complete">Videó vége</string>
+    <!-- Alert dialog prompt at end of video. -->
+    <string name="msg_lecture_complete">Megtekinted a következő videót?</string>
+
+
+    <!-- Message shown video download in process -->
+    <string name="video_download_in_progress">Videó letöltése folyamatban</string>
+
+    <!-- Message shown a single video download begins -->
+    <string name="msg_started_one_video_download">"1 videó letöltése"</string>
+    <!-- Error shown when video download fails -->
+    <string name="msg_video_not_downloaded">"Nem lehet videót letölteni"</string>
+    <!-- Error shown when video download fails -->
+    <string name="msg_video_not_available">A videó nem tölthető le.\nKésőbb próbáld újra.</string>
+    <!-- Error shown when video has flag to indicate it is not available for mobile app -->
+    <string name="video_only_on_web_label">A videó csak a weben elérhető. Kattints a webes megtekintéshez.</string>
+    <!-- Message to indicate the it is not available for mobile app  -->
+    <string name="video_only_on_web_short">Ezt a videót csak böngészőben lehet lejátszani</string>
+    <!-- Alert dialog title when login fails -->
+    <string name="login_error">Belépési hiba</string>
+    <!-- Alert dialog title when login fails due to lack of internet -->
+    <string name="no_connectivity">Hálózati hiba</string>
+    <!-- Visual separator like A | B -->
+    <string name="or_symbol"> | </string>
+
+    <!-- Wifi New Message -->
+    <!-- Toggle to allow downloads using cellular data -->
+    <string name="allow">Engedélyez</string>
+    <!-- Toggle to disallow downloads using cellular data -->
+    <string name="do_not_allow">Tilt</string>
+
+    <!-- Player Settings -->
+    <!-- Label for closed captions in video player -->
+    <string name="lbl_closed_caption">Feliratok</string>
+    <!-- Label for speed in video player -->
+    <string name="lbl_video_speed">Videó sebessége</string>
+    <!-- Label for no closed captions selected -->
+    <string name="lbl_cc_cancel">Nincs</string>
+
+    <!-- My Group Strings -->
+    <!-- Label for group name field in study group creation screen -->
+    <string name="header_group_name">Csoport neve</string>
+    <!-- Hint text for group name field in study group creation screen -->
+    <string name="hint_group_name">Csoport név megadása</string>
+    <!-- Label for description field in study group creation screen -->
+    <string name="header_group_desc">Csoport leírása (nem kötelező)</string>
+    <!-- Hint text for description field in study group creation screen -->
+    <string name="hint_group_desc">Csoport leírás megadása</string>
+    <!-- Disclaimer message shown when creating a new study group -->
+    <string name="create_group_disclaimer">Egy MeMOOC csoport létrehozásával Facebook csoport is készül. Csak a csoporttagok látják az üzeneteket</string>
+    <!-- Next button for creating a study group -->
+    <string name="create_group_next">Következő</string>
+    <!-- Label indicating social feature provider (like facebook) username when creating a study group -->
+    <string name="connected_as">Csatlakozva, mint {username}</string>
+    <!-- Button allowing a user to open a study group from within facebook -->
+    <string name="open_study_group">Tanulócsoport megnyitása a Facebookon</string>
+
+    <!-- Group creation and management -->
+    <!-- Title for create study group screen -->
+    <string name="label_new_group">Tanulócsoport beállítása</string>
+    <!-- Title for view allowing a user to add members to a new study group-->
+    <string name="label_add_group_friends">Tagok hozzáadása</string>
+    <!-- Title for view allowing a user to add members to an existing study group-->
+    <string name="label_add_new_group_friends">Új tagok hozzáadása</string>
+    <!-- Button title for action that allows users to share this app -->
+    <string name="button_share_app">App megosztása a barátokkal</string>
+    <!-- Alert dialog title for unknown type of error -->
+    <string name="error_unknown">Ismeretlen hiba</string>
+    <!-- Alert dialog error shown when inviting a user to a study group fails -->
+    <string name="error_group_invite">Hiba történt {username} meghívásakor</string>
+    <!-- Error message shown accessing Facebook -->
+    <string name="error_contact_FB">Facebook csatlakozási hiba</string>
+    <!-- Error message shown when loading a users friends from a social provider (like facebook) failes -->
+    <string name="error_friends_list">Barátok listájának letöltése sikertelen</string>
+    <!-- Error message shown when attempting to use Facebook enabled features without connecting a facebook account -->
+    <string name="error_no_fb">Facebook csatlakozási hiba</string>
+    <!-- Error message shown when attempting to invite friends to a study group, but user has no facebook friends -->
+    <string name="error_no_friends_connected">Egy Facebook barátod sincs a MeMOOCban</string>
+    <!-- Header on study groups screen encouraging users to create a group -->
+    <string name="empty_groups_header">Csoportban jobban megy a tanulás!</string>
+    <!-- Message on study groups screen encouraging users to create a group -->
+    <string name="empty_groups_msg">Hozz létre tanulócsoportokat a barátaiddal, maradj motivált, tanulj többet, végezd el a kurzusaidat!</string>
+    <!-- Message on study groups screen indicating requirement -->
+    <string name="empty_groups_msg2">Ehhez a Facebook fiókodat meg kell adnod</string>
+    <!-- Message shown after creating a study group -->
+    <string name="group_created">Csoport létrehozva</string>
+    <!-- Message shown after inviting friends to a study group -->
+    <string name="friends_invited">Barátok meghívása kész</string>
+    <!-- Button title for action that allows users to share this app -->
+    <string name="btn_share_app">A MeMOOC megosztása a barátaiddal</string>
+    <!-- Header for social friends list -->
+    <string name="friends_with_edx_accounts">Barátaid MeMOOC fiókkal</string>
+    <!-- Header for friends search -->
+    <string name="search_results">Keresés eredménye</string>
+    <!-- Button allowing a user to search for friends -->
+    <string name="friends_search">Keresés</string>
+    <!-- Button text to complete an action -->
+    <string name="done_text">Kész</string>
+    <!-- Label indicating unread actions. Argument is a count -->
+    <string name="unread_text">{unread_count} olvasatlan</string>
+    <!-- Label indicating number of members in a study group Argument is a count -->
+    <string name="group_summary_count">Csoport tagok ({members})</string>
+    <!-- Label indicating a user has no friends in a study group -->
+    <string name="group_summary_no_friends">Nincs a tanulócsoportban barátod</string>
+    <!-- Alert dialog title when a user without facebook performs an action that requires Facebook -->
+    <string name="dialog_fbinstall_title">Facebook szükséges</string>
+    <!-- Alert dialog message when a user without facebook performs an action that requires Facebook -->
+    <string name="dialog_fbinstall_msg">Ehhez Facebook app szükséges</string>
+    <!-- Alert dialog button action to open up the google play store -->
+    <string name="dialog_fbinstall_positive">Megmutat Google Play áruházban</string>
+
+    <!-- My Groups -->
+
+    <!-- Button label to bring up course finder -->
+    <string name="find_course_text">Új kihívásokat keresel?</string>
+    <!-- Button label to bring up course finder -->
+    <string name="find_course_btn_text">Keress egy mobil-barát kurzust</string>
+    <!-- Button label to bring up course finder -->
+    <string name="signin_with_text">Belépés az alkalmazásba</string>
+    <!-- Message between sign in button and social login buttons -->
+    <string name="or_sign_in_with">vagy belépés</string>
+    <!-- Facebook login method -->
+    <string name="facebook_text">Facebook</string>
+    <!-- Google login method -->
+    <string name="google_text">Google</string>
+    <!-- Message on course list -->
+    <string name="course_not_listed_text">Nem találod a kurzusodat?</string>
+    <!-- Message on course page for course that hasn't started -->
+    <string name="course_content_available_text">A kurzus még nem kezdődött meg. A kezdő dátum {start_time}. </string>
+    <!-- Button text, allowing user to open the edx website in a web browser -->
+    <string name="open_edx_btn_text">A MeMOOC.hu megnyitása a böngészőben</string>
+    <!-- Message shown when linking to the external course list when in app course registration is not enabled -->
+    <string name="find_courses_dialog_text_1">A tantárgyfelvétel mobil alkalmazásban nem engedélyezett.</string>
+    <!-- Message shown when linking to the external course list when in app course registration is not enabled -->
+    <string name="find_courses_dialog_text_2">De addig is, &lt;b&gt;felveheted a kurzusokat a weboldalon&lt;/b&gt; - regisztrálj, vedd fel a kurzust és gyere vissza.</string>
+    <!-- Title of find course screen -->
+    <string name="find_courses_title">Kurzus keresése</string>
+    <!-- Message shown when attempting to find courses with no internet connection -->
+    <string name="find_courses_offline_text">Offline módban vagy.\nA kereséshez csatlakozz az internetre.</string>
+    <!-- Prompt allowing user to choose email program -->
+    <string name="email_chooser_header">E-mail küldése...</string>
+    <!-- Error shown when user attempts to send email, but has no email app -->
+    <string name="email_client_not_present">Nincs e-mail kliens telepítve</string>
+
+    <!-- Landing Activity text -->
+    <!-- Prompt leading user to sign in screen -->
+    <string name="already_have_an_account">Már van fiókod? Lépj be</string>
+    <!-- Prompt leading user to create account screen -->
+    <string name="sign_up_and_learn">Regisztrálj</string>
+    <!-- In Sign up screen -->
+    <string name="sign_up_with">Belépés</string>
+    <!-- In Sign up screen -->
+    <string name="or_sign_up_with_email">vagy belépés e-mail címmel</string>
+
+    <!-- Registration Screen -->
+    <!-- Create account agreement. Followed by list of agreement names like "End User License Agreement" -->
+    <string name="by_creating_account">A MeMOOC fiók létrehozásával, elfogadod </string>
+    <!-- Button text allowing user to show hidden optional registration fields -->
+    <string name="show_optional_text">Nem kötelező mezők megmutatása</string>
+    <!-- Button text allowing user to hide visible optional registration fields -->
+    <string name="hide_optional_text">Nem kötelező mezők elrejtése</string>
+    <!-- Button text allowing user create an account -->
+    <string name="create_account_text">Fiók létrehozása</string>
+    <!-- Text shown while waiting for registration request -->
+    <string name="creating_account_text">Fiók létrehozása...</string>
+    <!-- Registration screen title -->
+    <string name="register_title">Belépés a MeMOOC rendszerbe</string>
+    <!-- Text for successful registration with social token  -->
+    <string name="sign_up_with_facebook_ok">Sikeresen beléptél Facebook fiókkal.</string>
+    <string name="sign_up_with_google_ok">Sikeresen beléptél Google fiókkal.</string>
+    <string name="sign_up_with_social_ok">Kicsit több infóra lesz szükséged a MeMOOC elkezdéséhez.</string>
+    <!-- Continue registration after social login -->
+    <string name="complete_registration">Regisztráció befejezése</string>
+    <!-- Message shown when enrolling in a course fails-->
+    <string name="enrollment_failure">Most nem tudod felvenni ezt a kurzust.</string>
+    <!-- Alert dialog button allowing user to repeat their attempted action -->
+    <string name="try_again">Próbáld újra</string>
+    <!-- Floating overlay text shown to user when they succeed at enrolling in a course -->
+    <string name="you_are_now_enrolled">Felvetted a kurzust</string>
+    <!-- Error shown user attempts to enroll in a course they are already enrolled in -->
+    <string name="already_enrolled">Már felvetted a kurzust</string>
+    <!-- Error shown when registering an account fails -->
+    <string name="sign_up_error">A fiók létrehozása nem sikerült Próbáld újra később.</string>
+
+    <!-- data charges may apply dialog text -->
+    <!-- Alert dialog title shown for users whose in app data is zero rated, when they follow a link outside the app -->
+    <string name="open_external_url_title">Adatforgalmi költségekkel járhat</string>
+    <!-- Alert dialog content shown for users whose in app data is zero rated, when they follow a link outside the app -->
+    <string name="open_external_url_desc">Ez a link a böngésződben nyílik meg. Ez adatforgalmi költségekkel járhat.</string>
+
+    <!-- Message shown when user tries to view course handouts, but none are loaded and the user is offline -->
+    <string name="offline_handouts_text">Offline módban vagy. A jegyzetek letöltéséhez kapcsolódj az internetre.</string>
+    <string name="android">Android</string>
+
+    <!--  Email subject line when user attempts to submit feedback about the app -->
+    <string name="email_subject">Visszajelzés</string>
+
+    <!-- Message indicating num of video deleted-->
+    <plurals
+        name="deleted_video">
+        <!-- Message indicating one video deleted. {video_count} is 1-->
+        <item quantity="one">{video_count} videó törölve</item>
+        <!-- Message indicating more than one video deleted. {video_count} is number of videos deleted-->
+        <item quantity="other">{video_count} videó törölve</item>
+    </plurals>
+
+    <!-- Notification related -->
+    <!-- Template for notification title -->
+    <string name="COURSE_ANNOUNCEMENT_NOTIFICATION_TITLE">Új hirdetmény</string>
+    <!-- toggle between subscribe and unsubscribe to course announcement -->
+    <string name="notification_toggle">Hirdetmények megjelenítése</string>
+    <!-- Placeholder title for course content with no title -->
+    <string name="untitled_block">Nincs cím</string>
+
+</resources>

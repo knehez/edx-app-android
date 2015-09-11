@@ -155,7 +155,7 @@ public class RegisterActivity extends BaseFragmentActivity
 
         ETextView customTitle = (ETextView) findViewById(R.id.activity_title);
         if(customTitle!=null){
-            customTitle.setText(getString(R.string.register_title));
+            //customTitle.setText(getString(R.string.register_title));
         }
 
         AppConstants.offline_flag = !NetworkUtil.isConnected(this);

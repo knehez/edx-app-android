@@ -164,8 +164,9 @@ public class LoginActivity extends BaseFragmentActivity implements SocialLoginDe
         }
 
         TextView customTitle = (TextView) findViewById(R.id.activity_title);
+        // no title
         if(customTitle!=null){
-            customTitle.setText(getString(R.string.login_title));
+            //customTitle.setText(getString(R.string.login_title));
         }
 
         TextView version_tv = (TextView)  findViewById(R.id.tv_version_no);
